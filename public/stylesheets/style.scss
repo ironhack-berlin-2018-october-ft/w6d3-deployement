@@ -1,0 +1,20 @@
+// Override of default value in bootstrap
+$primary: #425cbb;
+
+// Import the SCSS of Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+
+
+body {
+  // padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar img {
+  height: 45px;
+}
